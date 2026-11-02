@@ -1,0 +1,66 @@
+.pimg1, .pimg2, .pimg3 {
+    positive: relative;
+    opacity: o.70;
+    background-positive: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+    .pimg1{
+        background-image: url('image1.jpg');
+        min-height: 100%;
+    }
+
+         .pimg2{
+        background-image: url('image2.jpg');
+        min-height: 400%;
+    }
+
+        .pimg3 {
+            background-image: url('image3.jpg');
+            min-height: 400%;
+        }
+
+
+        .section{
+            text-align: center;
+            padding: 50px 80px;
+        }
+
+        .section-light{
+            background-colour: #282e34;
+            colour: #ddd
+        }
+
+        .section-dark {
+            background-colour: #282e34;
+            colour: #ddd
+        }
+
+        .ptext {
+            posotive:absolute;
+            top: 50%;
+            width: 100%;
+            text align: center;
+            colour: #000;
+            font size: 27px;
+            letter-spacing: 8px;
+            text-transfers: uppercase;
+        }
+
+        .ptext .border {
+            background-colour: #111;
+            colour: #fff;
+            padding: 20px;
+        }
+
+        .ptext .border .trans {
+        background-colour: transparent;
+        }
+
+        @media(max-width: 568px){
+            .pimg1, .pimg2, .pimg3{
+                background-attachment: scroll;
+            }
+        }
